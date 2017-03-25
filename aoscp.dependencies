@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "ontherunvaro/proprietary_vendor_zuk_z2_plus",
+    "target_path": "vendor/zuk/z2_plus",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "nougat-mr1",
+    "remote": "aoscp"
+  },
+  {
+    "remote": "github",
+    "repository": "ontherunvaro/android_kernel_zuk_z2_plus",
+    "target_path": "kernel/zuk/msm8996",
+    "branch": "cm-14.1"
+  }
+]

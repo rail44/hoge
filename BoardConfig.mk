@@ -118,12 +118,9 @@ TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# CM Hardware
-BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/cmhw
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw
+# Hardware
+BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/aoscphw
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # CNE and DPM
 TARGET_LDPRELOAD := libNimsWrap.so

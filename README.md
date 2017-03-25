@@ -1,5 +1,5 @@
 Device configuration for ZUK Z2 (z2_plus).
 
-Based on the work of davidevinavil and Fedor917.
+Based on the work of ontherunvaro, davidevinavil and Fedor917.
 
-This branch is for building LineageOS 14.1
+This branch is for building CypherOS 3.6.1
